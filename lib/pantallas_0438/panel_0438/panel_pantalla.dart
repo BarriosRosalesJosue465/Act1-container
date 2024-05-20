@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:a1_cristobal/pantallas_0456/panel_0456/widwets/item_cfe.dart';
+import 'package:a1_cristobal/pantallas_0438/panel_0438/widwets/item_cfe.dart';
 
 void main() => runApp(const PanelPantalla_0456());
 
@@ -10,13 +10,13 @@ class PanelPantalla_0456 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff097209),
+        backgroundColor: Color(0xffe8ec1d),
         centerTitle: true,
         leading: IconButton(
           onPressed: () {},
           icon: Icon(
             Icons.menu,
-            color: Colors.white,
+            color: Color(0xff000000),
           ),
         ),
         actions: [
@@ -24,12 +24,12 @@ class PanelPantalla_0456 extends StatelessWidget {
             padding: EdgeInsets.only(right: 25),
             child: CircleAvatar(
                 backgroundImage: NetworkImage(
-                    "https://raw.githubusercontent.com/LBrandonC06/Img_FlutterFlow_6J/main/UII_Act1/empl.png")),
+                    "https://raw.githubusercontent.com/BarriosRosalesJosue465/img_fluttterFlow_IOS_6J/main/act12NavBar_flutterFlow/logo.png")),
           )
         ],
         title: Text(
-          "Cristobal CFE",
-          style: TextStyle(color: Colors.white),
+          "Barrios Sabritas",
+          style: TextStyle(color: Color(0xff000000)),
         ),
       ),
       body: Column(children: [
@@ -38,7 +38,7 @@ class PanelPantalla_0456 extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 15),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
-              color: Color(0xff0de1e1),
+              color: Color(0xff8d8e8e),
               boxShadow: [
                 BoxShadow(
                   offset: Offset(0, 5),
@@ -66,7 +66,7 @@ class PanelPantalla_0456 extends StatelessWidget {
               image: DecorationImage(
                   fit: BoxFit.cover,
                   image: NetworkImage(
-                      "https://raw.githubusercontent.com/LBrandonC06/Img_FlutterFlow_6J/main/Act13-GridView/cfe-ahorro.jpg"))),
+                      "https://raw.githubusercontent.com/BarriosRosalesJosue465/img_fluttterFlow_IOS_6J/main/act12NavBar_flutterFlow/distribuicion.jpg"))),
         ),
         ListTile(
           title: Text("Top Trabajadores"),

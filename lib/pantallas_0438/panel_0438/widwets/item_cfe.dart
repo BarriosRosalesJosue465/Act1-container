@@ -19,7 +19,7 @@ class ItemCfe extends StatelessWidget {
       child: Column(children: [
         CircleAvatar(
           backgroundImage: NetworkImage(
-              "https://raw.githubusercontent.com/LBrandonC06/Img_FlutterFlow_6J/main/UII_Act1/empl.png"),
+              "https://raw.githubusercontent.com/BarriosRosalesJosue465/img_fluttterFlow_IOS_6J/main/act12NavBar_flutterFlow/logo.png"),
         ), // CircleAvatar
         SizedBox(
           height: 10,
